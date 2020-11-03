@@ -8,6 +8,6 @@ current weather condition.
 
 ---
 
-#### To have a play around with the app [Click Me]().
+#### To have a play around with the app [Click Me](https://weatherly-kishore.netlify.app/).
 
 Have fun.
