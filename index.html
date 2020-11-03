@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>I'm your Weatherly</h2>
+
+        <form>
+            <label for="city">Enter the location for weather information</label>
+            <input type="text" name="city">
+        </form>
+        <div class="second card d-none">
+            <img class="Time" src="https://dummyimage.com/400x300/a4a4a6/ffffff&text=Just+a+dummy" alt="">
+            <div class="icon">
+                <!-- icons here -->
+                <img src="" alt="weather-icons">
+            </div>
+            <div class="detail">
+                <h3>City name</h5>
+                <div>Weather condition</div>
+                <div class="cond">
+                    <span class="temp">Temp</span>
+                    <span class="temp degree">&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/apiInteract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
